@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.memorynotfound.rs.test.NotificationRestServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.803 sec <<< FAILURE! - in com.memorynotfound.rs.test.NotificationRestServiceTest
+testFetchBy(com.memorynotfound.rs.test.NotificationRestServiceTest)  Time elapsed: 0.619 sec  <<< ERROR!
+org.glassfish.jersey.test.spi.TestContainerException: java.net.BindException: Address already in use
+Caused by: java.net.BindException: Address already in use
+
+testFetchByFail_DoesNotHaveDigit(com.memorynotfound.rs.test.NotificationRestServiceTest)  Time elapsed: 0.618 sec  <<< ERROR!
+org.glassfish.jersey.test.spi.TestContainerException: java.net.BindException: Address already in use
+Caused by: java.net.BindException: Address already in use
+
+testFetchAll(com.memorynotfound.rs.test.NotificationRestServiceTest)  Time elapsed: 0.618 sec  <<< ERROR!
+org.glassfish.jersey.test.spi.TestContainerException: java.net.BindException: Address already in use
+Caused by: java.net.BindException: Address already in use
+
+testCreate(com.memorynotfound.rs.test.NotificationRestServiceTest)  Time elapsed: 0.619 sec  <<< ERROR!
+org.glassfish.jersey.test.spi.TestContainerException: java.net.BindException: Address already in use
+Caused by: java.net.BindException: Address already in use
+
+testUpdate(com.memorynotfound.rs.test.NotificationRestServiceTest)  Time elapsed: 0.618 sec  <<< ERROR!
+org.glassfish.jersey.test.spi.TestContainerException: java.net.BindException: Address already in use
+Caused by: java.net.BindException: Address already in use
+
